@@ -6,7 +6,7 @@ app.use(express.json()) // middleware to parse json bodies
 
 
 // route that sends a json response
-app.use('/', (req, res) => {
+app.use('/test', (req, res) => {
     res.json('Express is working! Jhanna Kris Durano')
 });
 
